@@ -1,0 +1,15 @@
+h1 {
+    color: white;
+    margin: 40px;
+    padding: 40px;
+}
+
+.con2 {
+    padding: 50px;
+    margin: 50px;
+}
+
+body {
+    background-color: rgb(83, 164, 218);
+    background-image: url(https://poral.eu/screen/blu-ray_1080/g/grand_bleu/grand_bleu_16.png);
+}
