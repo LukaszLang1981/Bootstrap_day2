@@ -1,0 +1,21 @@
+.img-container {
+    position: relative;
+    width: 70%;
+    display: grid;
+    @include changeCols(3, 1fr);
+    gap: 60px;
+    margin: auto;
+    img {
+        @include imgfix;
+    }
+}
+
+.text-block {
+    opacity: 0.7;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    background-color: black;
+    color: white;
+}

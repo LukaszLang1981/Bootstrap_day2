@@ -1,0 +1,11 @@
+@media screen and (min-width:481px) and (max-width: 860px) {
+    .img-container {
+        @include changeCols(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img-container {
+        @include changeCols(1, 1fr);
+    }
+}

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  margin: 30px;
+  padding: 30px;
+}
+
+form {
+  text-align: end;
+  padding-right: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 30px;
+  padding: 30px;
+}
+
+.nav1 {
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin-bottom: 60px;
+}
+.nav1 ul {
+  list-style: none;
+}
+.nav1 ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 1rem 4rem;
+}
+.nav1 ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 100;
+  background-color: white;
+  color: black;
+}
+.nav1 ul li a:hover {
+  color: burlywood;
+}
+
+.nav2 {
+  text-align: center;
+}
+.nav2 ul {
+  list-style: none;
+}
+.nav2 ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 1rem 6rem;
+}
+.nav2 ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: white;
+  background-color: black;
+}
+.nav2 ul li a:hover {
+  color: rgb(10, 121, 27);
+}
+
+.nav2div {
+  margin-top: 100px;
+  background-color: black;
+}
+
+.footer1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.footer2 {
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.img-container {
+  position: relative;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin: auto;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-block {
+  opacity: 0.7;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 120px;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (min-width: 481px) and (max-width: 860px) {
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=style.css.map */
